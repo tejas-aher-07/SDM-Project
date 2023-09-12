@@ -45,13 +45,13 @@ int main()
 	d1.setter(03,12,2001);
 	d1.getter();
 	
-	char date[11];
+	int dd,mm,yyyy;
 	cout<<"Enter the date [dd/mm/yyyy] : ";
-	cin>>date;
+	cin>>dd>>mm>>yyyy;
 	
 	
 	cout<<"After Modification : ";
-	d1.setDate(date[]);
+	d1.setDate(dd);
 	d1.setMonth(mm);
 	d1.setYear(yyyy);
 	d1.getter();

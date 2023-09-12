@@ -16,7 +16,7 @@ class Complex
 		{
 			real=r;
 		}
-		
+	
 		void setImg(int img)
 		{
 			this->img = img;
@@ -27,6 +27,9 @@ class Complex
 			cout<<"Complex Number is : "<<real<<"+"<<img<<+"i"<<endl;
 		}
 };
+void Complex:: acceptparam(int r){
+real=r;
+}
 int main()
 {
 	Complex c1;
@@ -35,5 +38,6 @@ int main()
 	c1.setReal(20);
 	c1.getter();
 	c1.setImg(15);
-	c1.getter();	
+	c1.getter();
+	c1.acceptparam(30);
 }

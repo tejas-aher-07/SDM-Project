@@ -27,7 +27,7 @@ This System will reduces malpractices as it is proctored test.
 	NA : Network Analyst
 	EMT : Exam Management Team
 	AT : Administrative Team
- OT : Operational Team
+        OT : Operational Team
 
 ## Functional Requirements:
 

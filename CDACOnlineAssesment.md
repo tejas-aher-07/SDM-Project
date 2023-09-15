@@ -52,7 +52,7 @@ System will allow only Registered Student to appear for the examination.
 Each Student will be able to access the examination questions after entering their specific Form No and Password through authentication process(Security is based upon the individual unique ID).
 Student would be unable to access any part of the system without logging on to the system.
 System will automatically log out after exam time gets over.
-System will internally maintain secure communication channel between Servers ( Web Servers, databse Server)
+System will internally maintain secure communication channel between Servers ( Web Servers, databse Server).
 Used proper firewall to protect servers from out side phishing, vulnerable attacks.
 
 ### Reliability

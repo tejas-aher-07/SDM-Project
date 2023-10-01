@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- <style>
+        iframe
+        {
+            width: 100%;
+            height: 300px;
+            border: 1px solid red;
+        }
+    </style> -->
+</head>
+<body>
+    <!-- <a href="your-text-source.html" target="iframe">Show text</a>
+    <iframe name="iframe"></iframe> -->
+    <!-- <script>
+        $(document).ready(function () {
+            $('#show-text').click(function(event){
+                event.preventDefault();
+                $('#text-frame').attr('src','your-text-source.html');
+                $('#text-frame').css('display','block');
+            });
+        });
+    </script> -->
+    <!-- <p>The Ritz-Carlton ,Pune</p> -->
+    <a href="../Attachments/Ritz.jpg" id="display" target="Hotel" onclick="dis()">The Ritz-Carlton ,Pune</a>
+        <iframe class="frame" name="Hotel" style="width: 100px; height: 70px;" scrolling="no" src="../Attachments/Vivanta.jpg">
+        </iframe>
+        <iframe class="frame1" style="width: 320px; height: 50px;" name="HotelName" scrolling="no">
+        </iframe>
+
+        <script>
+            var a = document.getElementById("display").innerText
+            //console.log(a)
+            document.write(a)
+            // .addEventListener("click",function(){
+            //     document.getElementsByName("iframe")[0];
+            //}
+            //)
+            function dis(){
+                document.write(a)
+            }
+        </script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .split {
+            height: 100%;
+            width: 74%;
+            position:sticky;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            scroll-behavior:auto;
+            text-align: justify;
+        }
+        .split1 {
+            height: 100%;
+            width: 25%;
+            position:fixed;
+            z-index: 1;
+            top: 1%;
+            overflow-x:visible;
+            overflow-y: visible;
+            padding-top: 6%;
+            scroll-behavior:auto;
+        }
+        .split2 {
+            height: 100%;
+            width: 25%;
+            position:fixed;
+            z-index: 1;
+            top: 1%;
+            overflow-x:visible;
+            overflow-y: visible;
+            padding-top: 6%;
+            scroll-behavior:auto;
+        }
+        .left {
+            left: 0;
+            scroll-behavior:auto;
+
+        }
+        .right {
+            right: 0;
+            scroll-behavior:auto;
+
+        }
+        dt{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+            text-decoration: underline;
+            font-weight:bolder;
+        }
+        .wrap {
+            width: 600px;
+            height: 600px;
+            padding: 0;
+            overflow:hidden;
+        }
+        .frame {
+            transform: scale(0.33); 
+            border: 0;
+            transform-origin: 0 0;
+        }
+        .frame1{
+            border:0;
+            margin-top: 300px;
+        }
+        button{
+            background: rgb(3, 250, 250);
+            color: red;
+            border-radius: 10px;
+            cursor:pointer;
+			animation-name:firstanimation ;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+        }
+            @keyframes firstanimation{	
+			0%{
+				background-color:rgb(98, 238, 219);			
+			}
+			25%{
+				background-color: rgb(37, 119, 243);
+			}
+			50%{
+				background-color: rgb(165, 75, 238);
+    		}
+			100%{
+				background-color: rgb(98, 238, 219);
+			}
+		}
+        button:hover{
+            cursor:pointer;
+            font-size: small ;
+        }
+        #arrow{
+            animation-name:secondanimation ;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+        }
+        @keyframes secondanimation{
+            0%{
+                transform: translate(0px,1px);
+            }
+            100%{
+                transform: translate(0px,12px);
+            }
+        }
+    </style>
+</head>
+<body> 
+    <div class="split left">
+            <dl>
+                <dt><a href="../Attachments/Ritz.jpg" target="Hotel">The Ritz-Carlton ,Pune</a>
+                    <dd>Set in Pune, 4 km from Pune International Airport The Ritz-Carlton, Pune offers accommodation with a restaurant, free private parking, an outdoor swimming pool and a fitness centre. With free WiFi, this 5-star hotel has a bar and a terrace. The accommodation provides a 24-hour front desk, room service and currency exchange for guests. The property is excellent. More than that the service offered by personnel is exceptional. Looking forward to book again.</dd>
+                </dt>
+                <center>
+                    <a href="../Hotel Sunrise/RitzAvai.html" target="_blank">
+                        <button type="submit">CHECK FOR AVAILABILITY</button>
+                    </a>
+                </center>
+                <br>
+                <dt><a href="../Attachments/Vivanta.jpg" target="Hotel">Vivanta ,Pune</a>
+                    <dd>Situated 2.1 km from Rajiv Gandhi Infotech Park in Hinjewadi, Vivanta Pune Hinjawadi features a restaurant, bar and free WiFi throughout the property. The hotel has an outdoor pool and spa centre, and guests can enjoy a drink at the snack bar. Free private parking is available on site. Loved their welcome for our first night as a married couple. Staff was so polite and accommodating. Loved the breakfast and the service there.</dd>
+                </dt>
+                <center>
+                    <a href="../Hotel Sunrise/VivantaAvai.html" target="_blank">
+                        <button type="submit">CHECK FOR AVAILABILITY</button>
+                    </a>
+                </center>
+                <br>
+                <dt><a href="../Attachments/Conrad.jpg" target="Hotel">Conrad ,Pune</a>
+                    <dd>The hotel’s 351 luxurious guest rooms including 20 suites offer the very latest in-room technology and luxuries like signature Conrad amenities, plush bedding and five-fixture marble bathrooms with walk-in rain showers and soak tubs. The Executive Lounge on Level 13 is an exclusive retreat for Executive room and suite guests. Enjoy complimentary Wi-Fi, buffet breakfast, afternoon tea, evening cocktails with hors d’oeuvres; as well as all-day coffee, tea, soft beverages and fresh fruits Conrad Pune features seven trendy dining venues that are among the city’s favourite haunts. Many thanks to Shantanu for the excellent cleanliness maintained in the room. Many thanks to Viraj and Shameer from Concierge, for your tremendous care. Had a most enjoyable stay!!! 
+                    </dd>
+                </dt>
+                <center>
+                    <a href="../Hotel Sunrise/ConradAvai.html" target="_blank">
+                        <button type="submit">CHECK FOR AVAILABILITY</button>
+                    </a>
+                </center>
+                <br>
+                <dt><a href="../Attachments/Oberoi.jpg" target="Hotel">The Oberoi ,Mumbai</a>
+                    <dd>The Oberoi, Mumbai offers luxury and convenience with a wide range of 24 hour services like spa, butler service, laundry, concierge, business centre and travel desk. There are female butlers for the comfort of female guests travelling alone. Guests can enjoy shopping at the luxury retail arcade. The Oberoi Spa offers a variety of treatments and therapies. amazing staff , excellent food and the views are spectacular</dd>
+                </dt><br>
+                <center>
+                    <a href="../Hotel Sunrise/OberoiAvai.html" target="_blank">
+                        <button type="submit">CHECK FOR AVAILABILITY</button>
+                    </a>
+                </center>
+                <br>
+                <dt><a href="../Attachments/Taj Santacruz.jpg" target="Hotel">Taj Santacruz ,Mumbai</a>
+                    <dd>Offering breath-taking views of the runway from the largest rooms in the city. Taj Santacruz is located in Santa Cruz at a 2-minute walk from the Chhatrapati Shivaji Domestic Airport and 4 km from International terminal. The property is located 8 km from the Andheri commercial hub, 9 km from Bombay Exhibition Center (Goregaon) and 5 km from the financial hub of Bandra Kurla complex. Powai Central Business District is 11 km while Worli Business District is 12 km away. Spacious rooms. Super quiet (no sound of aircrafts whatsoever). Giant beakfast buffet. Super serviceable staffwith solutions.to everythimg.</dd>
+                </dt>
+                <center>
+                    <a href="../Hotel Sunrise/TajSantacruzAvai.html" target="_blank">
+                        <button type="submit">CHECK FOR AVAILABILITY</button>
+                    </a>
+                </center>
+                <br>
+                <dt><a href="../Attachments/Westinn.jpg" target="Hotel">The Westin ,Goa</a>
+                    <dd>Experience the essence of susegad at our beautiful Goan hotel. We are set in one of the world's most desirable places close to the Anjuna vibrant nightlife spots, sand beaches kissed by the Arabian Sea, and set against verdant green hills. Our beautifully appointed rooms and suites provide deluxe patio accommodations and direct access to our outdoor pool, offering the most rejuvenating experiences in one of the most stunning holiday destinations in India.</dd>
+                </dt>
+                <center>
+                    <a href="../Hotel Sunrise/WestinAvai.html" target="_blank">
+                        <button type="submit">CHECK FOR AVAILABILITY</button>
+                    </a>
+                </center>
+            </dl>
+        
+    </div>
+    <div class="split1 right">
+        <div class="wrap">
+            <p id="arrow">(<b style="color:red;font-size: larger;">↓↓</b> Click on Hotel Name to get a Preview Here  <b style="color:red;font-size: larger;">↓↓</b>)</p>
+            <iframe class="frame" name="Hotel" style="width: 1000px; height: 750px;" scrolling="no" src="../Attachments/Vivanta.jpg">
+            </iframe><br>
+       </div>
+    </div>
+    <div class="split2 right">
+        <div class="wrap">
+            <iframe class="frame1" style="width: 320px; height: 50px;" name="HotelName" scrolling="no">
+            </iframe>
+       </div>
+    </div>
+</body>
+</html>

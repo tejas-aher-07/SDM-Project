@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container{
+            position: relative;
+            overflow: hidden;
+            /* width: 900px;
+            height: 500px; */
+        }
+        .shimmer{
+            position: absolute;
+            top: 0;
+            left:-100%;
+            right:-100%;
+            bottom: 0;
+            background-image: linear-gradient(to right, rgb(253, 208, 58) 0%, rgb(255, 255, 255) 50%, rgb(253, 208, 58) 100%);
+            animation: shimmer 2s linear infinite;
+        }
+        @keyframes shimmer {
+            0%{
+                transform: translateX(-100%);
+            }
+            100%{
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+<body> 
+    <div class="image-container">
+        <div class="shimmer"></div>
+        <img src="../Attachments/Ritnrrgjn.png" alt="Ritz">  
+    </div>
+</body>
+</html>
